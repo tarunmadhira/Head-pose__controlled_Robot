@@ -50,6 +50,9 @@ If the word "up" is recieved the robot moves forwards and so on as explained. Th
 
 The circuit diagram is as shown below ![](https://github.com/tarunmadhira/Head-pose__controlled_Robot/blob/master/upload%20to%20git/circuit.png)
 
+The robot consists of NodeMCU microcontroller IC, two DC motors, an L293D motor driver IC and two 9v batteries for powerinng the NodeMCU and motors respectively. 
+
+
 
 
 
