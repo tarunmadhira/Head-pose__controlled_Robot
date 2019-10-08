@@ -14,5 +14,5 @@ The laptop webcam captures video frames and detects the user head-pose in each f
 
 This head direction is the sent to robot for each frame. The robot is connected to the laptop over Wi-Fi. The robot moves forward when user is looking up, back when looking down, moves left when user looks left and moves right accordingly. All of this Happens in realtime, frame-by-frame. 
 
-![Output of Head-pose tracking algorithm on laptop]()
+![Output of Head-pose tracking algorithm on laptop](https://github.com/tarunmadhira/Head-pose__controlled_Robot/blob/master/upload%20to%20git/headrit.png)
 
