@@ -54,7 +54,31 @@ The robot consists of NodeMCU microcontroller IC, two DC motors, an L293D motor 
 
 The NodeMCU (Node MicroController Unit) is an open source software and hardware development environment that is built around a very inexpensive System-on-a-Chip (SoC) called the ESP8266. The ESP8266, designed and manufactured by Espressif Systems, contains all crucial elements of the modern computer: CPU, RAM, networking (wifi), and even a modern operating system and SDK. When purchased at bulk, the ESP8266 chip costs only $2 USD a piece. That makes it an excellent choice for IoT projects of all kinds.
 
-<video src="https://github.com/tarunmadhira/Head-pose__controlled_Robot/blob/master/WhatsApp%20Video%202019-10-06%20at%206.03.41%20PM.mp4">
+## Hardware & software used to run
+
+* Intel i5 8th gen CPU
+* 8 GB RAM
+* Nvidia mx250 GPU 
+* Windows 10 x86
+* Python 3.6
+* OpenCV 3 package
+* Dlib 19.0 Python library
+* imutils Python library
+
+
+#### How to run
+
+* Download Dlib shape predictor pre-trained model "shape_predictor_68_face_landmarks.dat"
+* Install OpenCV 3+ package, Dlib 19.0 library and the latest version of imutils. 
+* flash the file "wificlientbasic2modded.ino" onto your NodeMCU (optional)
+* Run "finalgui2.py" and switch on your NodeMCU if you want to conntrol robot after detecting headpose
+* Run "finalgui2withoutserver.py" to run the head-pose detection algorithm ONLY, without a robot. 
+
+##### CONTACT DETAILS-
+Made by: Sai Tarun Madhira; MIT, Manipal, BTech. Electronics and communication enginneering 
+Email- Saitarun.madhira@gmail.com
+
+
 
 
 
