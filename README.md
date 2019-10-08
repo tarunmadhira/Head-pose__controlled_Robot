@@ -8,7 +8,7 @@ This Page showcases the working of the Head-pose controlled robot and the corres
 
 ### What it does?
 
-The robot moves accordning to head direction detected by the laptop webcam. 
+The robot moves accordning to head direction detected by the laptop webcam in real-time. 
 
 The laptop webcam captures video frames and detects the user head-pose in each frame in terms of X, Y & Z coordinnates i.e pitch, rolll and yaw respectively. The head direction is then classified as up, down, left and right.
 
