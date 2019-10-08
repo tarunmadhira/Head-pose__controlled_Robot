@@ -1,7 +1,7 @@
 # Head-pose controlled Robot
 This Page showcases the Head-pose controlled robot and the corresponding code.
 
-<image SRC="https://github.com/tarunmadhira/Head-pose__controlled_Robot/blob/master/IMG_20191006_181805.jpg">
+<image src="https://github.com/tarunmadhira/Head-pose__controlled_Robot/blob/master/IMG_20191006_181805.jpg">
 
 ## Robot working demonstration 
 ![GIF showing the Robot in action](https://github.com/tarunmadhira/Head-pose__controlled_Robot/blob/master/ezgif.com-video-to-gif.gif)
@@ -21,7 +21,7 @@ This head direction is the sent to robot for each frame. The robot is connected 
 The system comprises of four steps:
 
 
-#### 1.) Face landmark detection
+#### 1.) Face landmark detection:
 
 On capturing frame of video from laptop webcam, the first step is to calculate the 2D locations of 68 face landmark points. Face Landmark points are certain key points on the face like the tip of the nose, corner of eye etc. They are used to localize and label regions of the face. 
 
@@ -31,7 +31,7 @@ It comprises of an HoG + Linear SVM based face detector combined with a sliding 
 It has been trained on the iBuG-300w Faces in-the-wild dataset ![](https://ibug.doc.ic.ac.uk/resources/300-W_IMAVIS/)
 
 
-#### 2.) Pose calculation 
+#### 2.) Pose calculation:
 
 The 3D head pose is calculated using the locations of 2D points captured by the Dlib face landmark detector. We use the Orthographic projection techique to project the 2D landmark points to the corresponding 3D points. This method is reliable, accurate and fast, it is not as computationally intensive as the CNN & machine learning based approaches.
 
@@ -44,11 +44,11 @@ The diagram below illustrates Pitch, Yaw & Roll in terms of X, Y & Z
 
 ![](https://github.com/tarunmadhira/Head-pose__controlled_Robot/blob/master/upload%20to%20git/yawroll%26pitch.png)
 
-#### 3.) Sending direction command 
+#### 3.) Sending direction command:
 
 The robot is connected to the Laptop wirelessly via Wi-Fi, the direction command being detected in the current frame (i.e up, down, left & right) is sent to robot in real time over TCP/IP. The data being sent is in string format. 
 
-#### 4.) Motion executed
+#### 4.) Motion executed:
 
 If the word "up" is recieved, the robot moves forwards and so on as explained. The robot is controlled by a NodeMCU microcontroller IC, which drives an L293D motor driver IC. The IC in turn drives two motors. 
 
