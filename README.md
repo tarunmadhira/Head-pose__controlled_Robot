@@ -18,7 +18,7 @@ This head direction is the sent to robot for each frame. The robot is connected 
 
 ### How does it do it?
 
-The system comprises of four steps; capturing frame of video and detecting face landmarks 
+The system comprises of four steps:
 
 
 #### 1.) Face landmark detection
@@ -40,13 +40,16 @@ The generic 3D model refrence points are provided by ![](https://ibug.doc.ic.ac.
 
 The POSiT algorith is implemented in python using the OpenCV function "Solve_PnP". It solves the 2D-3D correspondence equation using Direct Linear Transform followed by Levenberg-Marquardt optimization. ![](https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html) 
 
+The diagram below illustrates Pitch, Yaw & Roll in terms of X, Y & Z
+![](https://github.com/tarunmadhira/Head-pose__controlled_Robot/blob/master/upload%20to%20git/yawroll%26pitch.png)
+
 #### 3.) Sending direction command 
 
-The robot is connected to the Laptop wirelessly via Wi-Fi, the direction command being detected in current frame (i.e up, down, left & right) is sent to robot in real time over TCP/IP. The data sent is in string format. 
+The robot is connected to the Laptop wirelessly via Wi-Fi, the direction command being detected in the current frame (i.e up, down, left & right) is sent to robot in real time over TCP/IP. The data being sent is in string format. 
 
 #### 4.) Motion executed
 
-If the word "up" is recieved the robot moves forwards and so on as explained. The robot is controlled by a NodeMCU microcontroller IC, which drives an L293D motor driver IC. The IC in turn drives two motors. 
+If the word "up" is recieved, the robot moves forwards and so on as explained. The robot is controlled by a NodeMCU microcontroller IC, which drives an L293D motor driver IC. The IC in turn drives two motors. 
 
 ## The robot hardware 
 
@@ -65,7 +68,7 @@ The NodeMCU (Node MicroController Unit) is an open source software and hardware 
 * Python 3.6
 * OpenCV 3 package
 * Dlib 19.0 Python library
-* imutils Python library
+* iMutils Python library
 
 
 #### How to run
@@ -78,10 +81,11 @@ The NodeMCU (Node MicroController Unit) is an open source software and hardware 
 
 ##### CONTACT DETAILS-
 
-Made by: Sai Tarun Madhira; MIT, Manipal, BTech. Electronics and communication engineering 
+Made by: Sai Tarun Madhira; MIT, Manipal, BTech. Electronics and communication engineering
 
 Email- Saitarun.madhira@gmail.com
 
+<video src="WhatsApp Video 2019-10-06 at 6.03.41 PM.mp4" width="320" height="200" controls preload></video>
 
 
 
