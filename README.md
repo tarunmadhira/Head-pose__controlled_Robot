@@ -54,6 +54,7 @@ The robot consists of NodeMCU microcontroller IC, two DC motors, an L293D motor 
 
 The NodeMCU (Node MicroController Unit) is an open source software and hardware development environment that is built around a very inexpensive System-on-a-Chip (SoC) called the ESP8266. The ESP8266, designed and manufactured by Espressif Systems, contains all crucial elements of the modern computer: CPU, RAM, networking (wifi), and even a modern operating system and SDK. When purchased at bulk, the ESP8266 chip costs only $2 USD a piece. That makes it an excellent choice for IoT projects of all kinds.
 
+<video src="https://github.com/tarunmadhira/Head-pose__controlled_Robot/blob/master/WhatsApp%20Video%202019-10-06%20at%206.03.41%20PM.mp4">
 
 
 
