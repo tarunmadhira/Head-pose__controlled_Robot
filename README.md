@@ -52,6 +52,7 @@ The circuit diagram is as shown below ![](https://github.com/tarunmadhira/Head-p
 
 The robot consists of NodeMCU microcontroller IC, two DC motors, an L293D motor driver IC and two 9v batteries for powerinng the NodeMCU and motors respectively. 
 
+The NodeMCU (Node MicroController Unit) is an open source software and hardware development environment that is built around a very inexpensive System-on-a-Chip (SoC) called the ESP8266. The ESP8266, designed and manufactured by Espressif Systems, contains all crucial elements of the modern computer: CPU, RAM, networking (wifi), and even a modern operating system and SDK. When purchased at bulk, the ESP8266 chip costs only $2 USD a piece. That makes it an excellent choice for IoT projects of all kinds.
 
 
 
