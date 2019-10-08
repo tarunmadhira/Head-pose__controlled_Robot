@@ -46,7 +46,9 @@ The robot is connected to the Laptop wirelessly via Wi-Fi, the direction command
 
 If the word "up" is recieved the robot moves forwards and so on as explained. The robot is controlled by a NodeMCU microcontroller IC, which drives an L293D motor driver IC. The IC in turn drives two motors. 
 
-### The robot hardware 
+## The robot hardware 
+
+The circuit diagram is as shown below ![](https://github.com/tarunmadhira/Head-pose__controlled_Robot/blob/master/upload%20to%20git/circuit.png)
 
 
 
