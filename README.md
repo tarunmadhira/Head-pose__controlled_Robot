@@ -44,6 +44,10 @@ The robot is connected to the Laptop wirelessly via Wi-Fi, the direction command
 
 #### 4.) Motion executed
 
-If the word "up" is recieved the robot moves forwards and so on as explained. The robot is controlled by a NodeMCU microcontroller IC, which drives an L293D motor driver IC. The IC in turn drives two motors 
+If the word "up" is recieved the robot moves forwards and so on as explained. The robot is controlled by a NodeMCU microcontroller IC, which drives an L293D motor driver IC. The IC in turn drives two motors. 
+
+### The robot hardware 
+
+
 
 
