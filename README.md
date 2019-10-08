@@ -41,6 +41,7 @@ The generic 3D model refrence points are provided by ![](https://ibug.doc.ic.ac.
 The POSiT algorith is implemented in python using the OpenCV function "Solve_PnP". It solves the 2D-3D correspondence equation using Direct Linear Transform followed by Levenberg-Marquardt optimization. ![](https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html) 
 
 The diagram below illustrates Pitch, Yaw & Roll in terms of X, Y & Z
+
 ![](https://github.com/tarunmadhira/Head-pose__controlled_Robot/blob/master/upload%20to%20git/yawroll%26pitch.png)
 
 #### 3.) Sending direction command 
