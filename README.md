@@ -1,7 +1,7 @@
 # Head-pose controlled Robot
 This Page showcases the Head-pose controlled robot and the corresponding code.
 
-<image src="/Head-pose__controlled_Robot/blob/master/IMG_20191006_181805.jpg">
+<image src="Head-pose__controlled_Robot/blob/master/IMG_20191006_181805.jpg">
 
 ## Robot working demonstration 
 ![GIF showing the Robot in action](https://github.com/tarunmadhira/Head-pose__controlled_Robot/blob/master/ezgif.com-video-to-gif.gif)
